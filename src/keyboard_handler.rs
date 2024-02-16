@@ -13,7 +13,7 @@ pub fn start_keyboard_listener() {
     let scroll_mode_active = Arc::new(AtomicBool::new(false));
 
     let hint_mode_clone = hint_mode_active.clone();
-    let scroll_mode_clone = scroll_mode_active.clone();
+    let _scroll_mode_clone = scroll_mode_active.clone();
 
     let event_loop = EventLoopBuilder::new().build();
 

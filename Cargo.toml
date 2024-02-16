@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cacao = "0.3.2"
 global-hotkey = "0.4.2"
+macos-accessibility-client = "0.0.1"
 objc = "0.2.7"
 serde_json = "1.0.113"
 tao = "0.25"
